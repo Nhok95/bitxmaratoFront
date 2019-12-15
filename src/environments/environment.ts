@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  apiURL: "http://localhost:8000/diagnoser/"
+  /*apiURL: "http://localhost:8000/diagnoser/"*/
+  apiURL: "http://192.168.43.52:8000/diagnoser/"
 };
 
 /*

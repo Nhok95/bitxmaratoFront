@@ -12,4 +12,9 @@ export class QuestionService {
   URL = environment.apiURL;
 
   constructor(private http:HttpClient) { }
+
+  /*getByID(id:number):Observable<> {
+
+    return this.http.get<>(this.URL + "/" + id);
+  }*/
 }

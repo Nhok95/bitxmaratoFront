@@ -7,3 +7,10 @@
 
     <p-button (click)="sendQuestions()" label="Send"></p-button>
 </div>
+
+<div class= ui-g-12>
+    <h2>Sintomas</h2>
+    <p>Here we will store all your symptoms:</p>
+    <p *ngFor="let s of selectedQuestions"> {{s.name}} </p>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>

@@ -11,20 +11,18 @@ import { CheckboxModule } from 'primeng/checkbox';
 
 // Components
 import { AppComponent } from './app.component';
-import { QuestionComponent } from './components/question/question.component';
+import { Component1Component } from './components/component1/component1.component';
+import { Component2Component } from './components/component2/component2.component';
 import { ResultsComponent } from './components/results/results.component';
-import { SymptomsComponent } from './components/symptoms/symptoms.component';
-import { Question2Component } from './components/question2/question2.component';
 import { BooleansPipe } from './pipes/booleans.pipe';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    QuestionComponent,
+    Component1Component,
+    Component2Component,
     ResultsComponent,
-    SymptomsComponent,
-    Question2Component,
     BooleansPipe
   ],
   imports: [

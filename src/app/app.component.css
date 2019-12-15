@@ -1,0 +1,10 @@
+.background_img {
+    
+    height: auto;
+    background-image: url('http://thepatternlibrary.com/img/ao.gif');
+}
+
+h2 {
+    color:lightblue;
+    text-align: center;
+}

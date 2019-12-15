@@ -1,0 +1,10 @@
+<h2>Question</h2>
+
+<div class= ui-g-12>
+    Select 1 or more:
+    <p-multiSelect *ngIf="questions25" [options]="questions25" [(ngModel)]="selectedQuestions"
+        [panelStyle]="{minWidth:'12em'}"></p-multiSelect>
+    <p>Selected: {{selectedQuestions}}</p>
+    <p-button (click)="sendQuestions()" label="Send"></p-button>
+
+</div>

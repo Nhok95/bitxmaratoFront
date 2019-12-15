@@ -1,0 +1,9 @@
+<h2>Question</h2>
+
+<div class= ui-g-12>
+    <p>The question: {{ question }} (y/n)</p>
+    <p-checkbox [(ngModel)]="checked" binary="true"> </p-checkbox>  
+    {{checked | booleans}} <br><br>
+
+    <p-button (click)="sendQuestions()" label="Send"></p-button>
+</div>
